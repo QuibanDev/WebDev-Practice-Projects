@@ -1,3 +1,4 @@
+//currency converter
 <?php
 $riel = 2103942;
 $kyat = 19092;
@@ -23,7 +24,6 @@ echo "\nYour $lek lek were exchanged for $usd_from_lek usd.";
 
 $final_amount = $usd_from_riel + $usd_from_kyat + $usd_from_krones + $usd_from_lek - 4; 
 echo "\nAfter deducting the transactions fees, you'll be recieving $final_amount usd.";
-
 
 $final_amount_formatted = number_format($final_amount, 2, '.', '');
 echo "\nFinal USD amount: $final_amount_formatted";
